@@ -1,0 +1,14 @@
+github.com/jhendrixMSFT/go-bar/2018-01-01/bar v1.0.0 h1:Zwkioeq6cXjlsllU6h98GAUsA9S064HSZbeB+G7P0TY=
+github.com/jhendrixMSFT/go-bar/2018-01-01/bar v1.0.0/go.mod h1:pvYX0glFQMDN9YjdSWNevwcZ2FAPk102Pce7Mr4l9wA=
+github.com/jhendrixMSFT/go-fake-sdk v1.0.0 h1:uLPCHI2Sq3aGReVcRf0irGrYbwQ5w7lCEKka45o+vD8=
+github.com/jhendrixMSFT/go-fake-sdk v1.0.0/go.mod h1:+Y/CUgUYadowcstojalUhRfgsxivq4laETRkf82MB+k=
+github.com/jhendrixMSFT/go-foo/2018-01-01/foo v1.0.0 h1:VZNw0IL/AYElHBu9Ymol+oCPsf7qJVFujK0Zxr688w4=
+github.com/jhendrixMSFT/go-foo/2018-01-01/foo v1.0.0/go.mod h1:BNGNJd+itHT5hm+pgJgc4kO5fpTyVFQr3TzAqTNJJog=
+github.com/jhendrixMSFT/go-foo/2018-02-01/foo v1.0.0 h1:BQ5FlMynyhaDc3N9ncTHhVYeuQrla3QFDnyEP++77v4=
+github.com/jhendrixMSFT/go-foo/2018-02-01/foo v1.0.0/go.mod h1:8cm6EofkXoHnmSXITJP47ApEnFdtspf/Xr8noB6LUzM=
+github.com/jhendrixMSFT/modtest/foo v1.0.4 h1:v3dCIiLUrsyr0MXs/OeZYTQ2khgNjORF642b14ivI58=
+github.com/jhendrixMSFT/modtest/foo v1.0.4/go.mod h1:Pb88A/XAzoYB+U8/y/MCr0syhiNXo6rolJCexLIbl8E=
+github.com/jhendrixMSFT/modtest/foo/2018-01-01/foo v1.0.4 h1:lYc8NToRyqwl6KgMsP9woEbYNrV2kUq/qsk0TWFm5e4=
+github.com/jhendrixMSFT/modtest/foo/2018-01-01/foo v1.0.4/go.mod h1:r2zujDsnEM+jHO2AG6OKeq85+txN2+dPN3y17At7IKM=
+github.com/jhendrixMSFT/modtest/foo/2018-02-01/foo v1.0.0 h1:9G9++RWIfKUiXFyXxjseP3Cn+tWDfqaR555WrGtEJh0=
+github.com/jhendrixMSFT/modtest/foo/2018-02-01/foo v1.0.0/go.mod h1:JUE2Yx/ScZIZ+yTJr+IK8b3mRuArFKvMhjXCXZuzKLQ=
