@@ -1,15 +1,26 @@
 package main
 
 import (
+	"context"
 	"fmt"
 
-	"github.com/jhendrixMSFT/go-fake-sdk/services/bar/2018-01-01/bar"
-	oldfoo "github.com/jhendrixMSFT/go-fake-sdk/services/foo/2018-01-01/foo"
-	newfoo "github.com/jhendrixMSFT/go-fake-sdk/services/foo/2018-02-01/foo"
+	"github.com/jhendrixMSFT/azure-sdk-for-go2/profiles/2017-03-09/resources/mgmt/resources"
+	"github.com/jhendrixMSFT/go-autorest2/autorest/azure/auth"
 )
 
 func main() {
-	fmt.Println(bar.Report())
-	fmt.Println(oldfoo.Report())
-	fmt.Println(newfoo.Report())
+	a, err := auth.NewAuthorizerFromEnvironment()
+	if err != nil {
+		panic(err)
+	}
+	client := resources.NewClient("subID")
+	client.Authorizer = a
+	for page, err := client.List(context.Background(), "", "", nil); page.NotDone(); err = page.Next() {
+		if err != nil {
+			panic(err)
+		}
+		for _, v := range page.Values() {
+			fmt.Println(*v.ID)
+		}
+	}
 }
