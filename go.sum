@@ -16,8 +16,8 @@ github.com/golang/lint v0.0.0-20180702182130-06c8688daad7/go.mod h1:tluoj9z5200j
 github.com/golang/mock v1.1.1/go.mod h1:oTYuIxOrZwtPieC+H1uAHpcLFnEyAGVDL/k47Jfbm0A=
 github.com/golang/protobuf v1.2.0 h1:P3YflyNX/ehuJFLhxviNdFxQPkGK5cDcApsge1SqnvM=
 github.com/golang/protobuf v1.2.0/go.mod h1:6lQm79b+lXiMfvg/cZm0SGofjICqVBUtrP5yJMmIC1U=
-github.com/jhendrixMSFT/azure-sdk-for-go2/services/compute/mgmt/2016-03-30/compute v1.0.0 h1:1YXsmCXATnVTpbnUhOToVZ16tkx+jjzXQtZXvIn2xhI=
-github.com/jhendrixMSFT/azure-sdk-for-go2/services/compute/mgmt/2016-03-30/compute v1.0.0/go.mod h1:JrvqxMchft2Lwlty8erBCTGoBPqtttoxzzcGLoSmMTQ=
+github.com/jhendrixMSFT/azure-sdk-for-go2/services/compute/mgmt/2016-03-30/compute/v2 v2.0.0 h1:CWyg4DECm4cw1H+iAqlm67edPhbH6WnWFb0Ci9nEmEc=
+github.com/jhendrixMSFT/azure-sdk-for-go2/services/compute/mgmt/2016-03-30/compute/v2 v2.0.0/go.mod h1:QMKbupmAilP+LHq4goH/GN6KzEp5nWd3sQlS8J07wRE=
 github.com/jhendrixMSFT/go-autorest2/autorest/adal v1.0.0 h1:DG3QvdkW8WqQAEL6/sFioPCfyXoCYKWavEYS5U4xT74=
 github.com/jhendrixMSFT/go-autorest2/autorest/adal v1.0.0/go.mod h1:6eK6nfS1eFR43mSaIAQp2KKBhIR7NPeeqo9Au8Itr5Q=
 github.com/jhendrixMSFT/go-autorest2/autorest/date v1.0.0 h1:Y1ZYszUJF8I2x4TsVueoE0NHVlX0/icdT3csVzqEXuI=
